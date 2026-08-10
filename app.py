@@ -7,8 +7,8 @@ from sentence_transformers import SentenceTransformer, util
 # ตั้งค่าหน้าต่างเว็บไซต์
 st.set_page_config(page_title="ระบบจองฟิตเนสอัจฉริยะ", page_icon="🏋️‍♂️", layout="centered")
 
-st.title("🏋️‍♂️ ระบบจองฟิตเนสอัจฉริยะ (Smart Fitness Booking System)")
-st.subheader("ระบบประมวลผลข้อความภาษาธรรมชาติสำหรับการจองบริการฟิตเนส")
+st.title("🏋️‍♂️ ระบบจองฟิตเนส (Smart Fitness Booking System)")
+st.subheader("ระบบประมวลผลข้อความสำหรับการจองบริการฟิตเนส")
 st.write("พิมพ์ข้อความแจ้งความต้องการจองคลาส จองโซนเล่น นัดเทรนเนอร์ หรือสอบถามข้อมูลได้เลย")
 
 # 1. โหลดข้อมูลและโมเดล AI (ใช้ Caching เพื่อความเร็วในการโหลดเว็บ)
